@@ -1,6 +1,10 @@
-*{
+* {
 	margin:0;
 	padding:0;
+}
+
+html, body {
+    height: 100%;
 }
 
 body {
@@ -19,8 +23,8 @@ a:hover {
 	text-decoration:none;
 }
 
-.bar {
-	background-color : #ff8c1a;
+.search-bar {
+	background-color: #ff8c1a;
 	background-image:-webkit-linear-gradient(top, #ffffff, #f2f2f2);
 	background-image:-moz-linear-gradient(top, #ffffff, #f2f2f2);
 	background-image:linear-gradient(top, #ffffff, #f2f2f2);
@@ -33,7 +37,7 @@ a:hover {
 	position:relative;
 }
 
-.bar input {
+.search-bar input {
 	background:#fff no-repeat 13px 13px;
 	border: none;
 	width: 100%;
@@ -49,6 +53,35 @@ a:hover {
 	font-weight: bold;
 	outline: none;
 	text-indent: 40px;
+}
+
+/*center placeholder text*/
+::-webkit-input-placeholder {
+    text-align: center;
+    text-indent: -40px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+    text-indent: -40px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;
+    text-indent: -40px;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+    text-indent: -40px;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#content {
+    padding-bottom: 60px;
 }
 
 ul li {
@@ -68,4 +101,13 @@ ul li p {
 	font-weight: bold;
 	padding-top: 12px;
 	color: #6e7a7f;
+}
+
+footer {
+    position: relative;
+    height: 60px;
+    margin-top: -60px;
+    clear: both;
+    background-color: #666;
+    color: #B2B2B2;
 }

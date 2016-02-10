@@ -3,26 +3,31 @@
 
 	<head>
 		<meta charset="utf-8"/>
-		<title>Armenian Herbs</title>
-		<!--link href="http://fonts.googleapis.com/css?family=Cookie|Open+Sans:400,700" rel="stylesheet" /-->
+		<title>Հայաստանի Դեղաբույսերը</title>
 		<link href="style.css" rel="stylesheet" />
-
 	</head>
 
 	<body ng-app="instantSearch" ng-controller="InstantSearchController">
+        <div id="container">
+            <div id="content">
+                <div class="search-bar">
+                    <input type="text" ng-model="searchString" placeholder="դեղաբույսը ..." />
+                </div>
 
-		<div class="bar">
-			<input type="text" ng-model="searchString" placeholder="Enter herb name in latin,armenian ..." />
-		</div>
+                <ul>
+                    <li ng-repeat="i in items | searchFor:searchString">
+                        <p>{{i.title}}</p>
+                        <a href="{{i.url}}"><img ng-src="{{i.image}}" /></a>
+                    </li>
+                </ul>
+            </div>
 
-		<ul>
-			<li ng-repeat="i in items | searchFor:searchString">
-				<p>{{i.title}}</p>
-				<a href="{{i.url}}"><img ng-src="{{i.image}}" /></a>
-			</li>
-		</ul>
+            <footer>
+                <span>հետադարձ կապ</span>
+            </footer>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+        <script src="herbs.js"></script>
+    </body>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-		<script src="herbs.js"></script>
-	</body>
 </html>

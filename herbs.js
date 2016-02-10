@@ -70,8 +70,146 @@ function InstantSearchController($scope){
 			url: 'herbs/under-construction.html',
 			title: 'Զվերոբոյ',
 			image: 'img/զվերոբոյ.jpeg'
-		}
-	];
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Basil',
+			image: 'img/basil.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Oregano',
+			image: 'img/oregano.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Basil',
+			image: 'img/basil.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Oregano',
+			image: 'img/oregano.jpeg'
+		},
 
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Basil',
+			image: 'img/basil.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Oregano',
+			image: 'img/oregano.jpeg'
+		},
+
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Basil',
+			image: 'img/basil.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Oregano',
+			image: 'img/oregano.jpeg'
+		},
+
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Basil',
+			image: 'img/basil.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Oregano',
+			image: 'img/oregano.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Basil',
+			image: 'img/basil.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Oregano',
+			image: 'img/oregano.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Basil',
+			image: 'img/basil.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Oregano',
+			image: 'img/oregano.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Basil',
+			image: 'img/basil.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Oregano',
+			image: 'img/oregano.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Basil',
+			image: 'img/basil.jpeg'
+		},
+		{
+			url: 'herbs/under-construction.html',
+			title: 'Oregano',
+			image: 'img/oregano.jpeg'
+		},
+        {
+            url: 'herbs/under-construction.html',
+            title: 'Basil',
+            image: 'img/basil.jpeg'
+        },
+        {
+            url: 'herbs/under-construction.html',
+            title: 'Oregano',
+            image: 'img/oregano.jpeg'
+        },		{
+            url: 'herbs/under-construction.html',
+            title: 'Basil',
+            image: 'img/basil.jpeg'
+        },
+        {
+            url: 'herbs/under-construction.html',
+            title: 'Oregano',
+            image: 'img/oregano.jpeg'
+        },		{
+            url: 'herbs/under-construction.html',
+            title: 'Basil',
+            image: 'img/basil.jpeg'
+        },
+        {
+            url: 'herbs/under-construction.html',
+            title: 'Oregano',
+            image: 'img/oregano.jpeg'
+        },		{
+            url: 'herbs/under-construction.html',
+            title: 'Basil',
+            image: 'img/basil.jpeg'
+        },
+        {
+            url: 'herbs/under-construction.html',
+            title: 'Oregano',
+            image: 'img/oregano.jpeg'
+        },		{
+            url: 'herbs/under-construction.html',
+            title: 'Basil',
+            image: 'img/basil.jpeg'
+        },
+        {
+            url: 'herbs/under-construction.html',
+            title: 'Oregano',
+            image: 'img/oregano.jpeg'
+        }
+	];
 
 }
