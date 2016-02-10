@@ -19,7 +19,6 @@ app.filter('searchFor', function(){
 
 		searchString = searchString.toLowerCase();
 
-		// Using the forEach helper method to loop through the array
 		angular.forEach(arr, function(item){
 
 			if(item.title.toLowerCase().indexOf(searchString) !== -1){
@@ -33,53 +32,41 @@ app.filter('searchFor', function(){
 
 });
 
-// The controller
 
 function InstantSearchController($scope){
 
-	// The data model. These items would normally be requested via AJAX,
-	// but are hardcoded here for simplicity. See the next example for
-	// tips on using AJAX.
-
 	$scope.items = [
 		{
-			//url: 'http://www.tutorialspoint.com/android/',
 			url: 'herbs/under-construction.html',
 			title: 'Basil',
 			image: 'img/basil.jpeg'
 		},
 		{
-			//url: 'http://www.tutorialspoint.com/angularjs/',
 			url: 'herbs/under-construction.html',
 			title: 'Oregano',
 			image: 'img/oregano.jpeg'
 		},
 		{
-			//url: 'http://www.tutorialspoint.com/html5/',
 			url: 'herbs/under-construction.html',
 			title: 'Եղինջ',
 			image: 'img/եղինջ.jpeg'
 		},
 		{
-			//url: 'http://www.tutorialspoint.com/css/',
 			url: 'herbs/under-construction.html',
 			title: 'երեքնուկ',
 			image: 'img/երեքնուկ.jpeg'
 		},
 		{
-			//url: 'http://www.tutorialspoint.com/java/',
 			url: 'herbs/under-construction.html',
 			title: 'Եզան Լեզու',
 			image: 'img/եզան-լեզու.jpeg'
 		},
 		{
-			//url: 'http://www.tutorialspoint.com/joomla/',
 			url: 'herbs/under-construction.html',
 			title: 'Երիցուկ',
 			image: 'img/երիցուկ.jpeg'
 		},
 		{
-			//url: 'http://www.tutorialspoint.com/html/',
 			url: 'herbs/under-construction.html',
 			title: 'Զվերոբոյ',
 			image: 'img/զվերոբոյ.jpeg'
