@@ -76,11 +76,12 @@ a:hover {
     text-indent: -40px;
 }
 
-#container {
-    min-height: 100%;
+#content {
+	min-height: 100%;
 }
 
-#content {
+#main {
+    overflow: auto;
     padding-bottom: 60px;
 }
 

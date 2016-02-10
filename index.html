@@ -8,12 +8,11 @@
 	</head>
 
 	<body ng-app="instantSearch" ng-controller="InstantSearchController">
-        <div id="container">
-            <div id="content">
-                <div class="search-bar">
-                    <input type="text" ng-model="searchString" placeholder="դեղաբույսը ..." />
-                </div>
-
+        <div id="content">
+            <div class="search-bar">
+                <input type="text" ng-model="searchString" placeholder="փնտրել դեղաբույսը ..." />
+            </div>
+            <div id="main">
                 <ul>
                     <li ng-repeat="i in items | searchFor:searchString">
                         <p>{{i.title}}</p>
@@ -21,11 +20,11 @@
                     </li>
                 </ul>
             </div>
-
-            <footer>
-                <span>հետադարձ կապ</span>
-            </footer>
         </div>
+
+        <footer>
+            <span>հետադարձ կապ</span>
+        </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
         <script src="herbs.js"></script>
     </body>
