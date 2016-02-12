@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.main {
+    padding-bottom: 60px;
+}
+.container {
+    float: left;
+    margin-right: -320px;
+    width: 100%;
+}
+
+.content {
+    overflow: auto;
+    margin-right: 320px;
+    padding-left: 10px;
+    padding-top: 15px;
+    background-image: url(/herbs/img/bg.png);
+    border-bottom-right-radius: 40px;
+}
+
+.sidebar {
+    width: 320px;
+    float: right;
+}
+
+img {
+    width: 320px;
+    height: 320px;
+    border: none;
+}
+
+.under-construction {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+/* footer */
+footer {
+    position: relative;
+    text-align: center;
+    height: 60px;
+    margin-top: -60px;
+    clear: both;
+
+    background: green;
+    background: -moz-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+    background: -webkit-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+    background: -ms-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+    background: linear-gradient(to right, green 0%, green 80%, lightgreen 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff00', endColorstr='#ffffff', GradientType=1);
+
+    color: white;
+}
