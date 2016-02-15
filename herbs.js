@@ -49,7 +49,7 @@ function InstantSearchController($scope){
 		{
 			url: 'under-construction',
 			title: 'Եղինջ',
-			image: 'img/եղինջ.jpeg'
+			image: 'img/եղինջ.jpg'
 		},
 		{
 			url: 'under-construction',

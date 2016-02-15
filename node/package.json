@@ -1,9 +1,7 @@
-// node module dependencies
-
 {
-    "name" : "Herb Server",
+    "name" : "RESTful Server",
     "version" : "0.0.1",
     "dependencies" : {
-        "express" : "3.3.x"
+        "express" : "4.x.x"
     }
 }
