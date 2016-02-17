@@ -37,6 +37,50 @@ function InstantSearchController($scope){
 
 	$scope.items = [
 		{
+			url: 'under-construction',
+			title: 'Խորդենի',
+			image: 'img/խորդենի.png'
+		},
+		{
+			url: 'under-construction',
+			title: 'Եղեսպակ',
+			image: 'img/եղեսպակ.jpg'
+		},
+		{
+			url: 'under-construction',
+			title: 'Երիցուկ',
+			image: 'img/երիցուկ.jpg'
+		},
+		{
+			url: 'under-construction',
+			title: 'Խորդենի',
+			image: 'img/խորդենի.jpg'
+		},
+		{
+			url: 'under-construction',
+			title: 'Հազար',
+			image: 'img/հազար.jpeg'
+		},
+		{
+			url: 'under-construction',
+			title: 'Ուրց',
+			image: 'img/ուրց.jpg'
+		},
+		{
+			url: 'under-construction',
+			title: 'Հապալաղ',
+			image: 'img/հապալաղ.jpg'
+		},
+		{
+			url: 'under-construction',
+			title: 'Չիչխան',
+			image: 'img/չիչխան.jpeg'
+		},
+		{
+			url: 'under-construction',
+			title: 'Դափնի',
+			image: 'img/դափնի.jpeg'
+		},		{
 			url: 'basil',
 			title: 'Basil',
 			image: 'img/basil.jpeg'
@@ -45,171 +89,7 @@ function InstantSearchController($scope){
 			url: 'oregano',
 			title: 'Oregano',
 			image: 'img/oregano.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Եղինջ',
-			image: 'img/եղինջ.jpg'
-		},
-		{
-			url: 'under-construction',
-			title: 'երեքնուկ',
-			image: 'img/երեքնուկ.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Եզան Լեզու',
-			image: 'img/եզան-լեզու.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Երիցուկ',
-			image: 'img/երիցուկ.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Զվերոբոյ',
-			image: 'img/զվերոբոյ.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Basil',
-			image: 'img/basil.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Oregano',
-			image: 'img/oregano.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Basil',
-			image: 'img/basil.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Oregano',
-			image: 'img/oregano.jpeg'
-		},
-
-		{
-			url: 'under-construction',
-			title: 'Basil',
-			image: 'img/basil.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Oregano',
-			image: 'img/oregano.jpeg'
-		},
-
-		{
-			url: 'under-construction',
-			title: 'Basil',
-			image: 'img/basil.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Oregano',
-			image: 'img/oregano.jpeg'
-		},
-
-		{
-			url: 'under-construction',
-			title: 'Basil',
-			image: 'img/basil.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Oregano',
-			image: 'img/oregano.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Basil',
-			image: 'img/basil.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Oregano',
-			image: 'img/oregano.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Basil',
-			image: 'img/basil.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Oregano',
-			image: 'img/oregano.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Basil',
-			image: 'img/basil.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Oregano',
-			image: 'img/oregano.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Basil',
-			image: 'img/basil.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Oregano',
-			image: 'img/oregano.jpeg'
-		},
-        {
-            url: 'under-construction',
-            title: 'Basil',
-            image: 'img/basil.jpeg'
-        },
-        {
-            url: 'under-construction',
-            title: 'Oregano',
-            image: 'img/oregano.jpeg'
-        },		{
-            url: 'under-construction',
-            title: 'Basil',
-            image: 'img/basil.jpeg'
-        },
-        {
-            url: 'under-construction',
-            title: 'Oregano',
-            image: 'img/oregano.jpeg'
-        },		{
-            url: 'under-construction',
-            title: 'Basil',
-            image: 'img/basil.jpeg'
-        },
-        {
-            url: 'under-construction',
-            title: 'Oregano',
-            image: 'img/oregano.jpeg'
-        },		{
-            url: 'under-construction',
-            title: 'Basil',
-            image: 'img/basil.jpeg'
-        },
-        {
-            url: 'under-construction',
-            title: 'Oregano',
-            image: 'img/oregano.jpeg'
-        },		{
-            url: 'under-construction',
-            title: 'Basil',
-            image: 'img/basil.jpeg'
-        },
-        {
-            url: 'under-construction',
-            title: 'Oregano',
-            image: 'img/oregano.jpeg'
-        }
+		}
 	];
 
 }

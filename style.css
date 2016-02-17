@@ -90,7 +90,7 @@ a:hover {
 
 ul li {
 	display: inline-block; //display: inline; float: left;
-	border-bottom: 1px solid #ddd;
+	//border-bottom: 1px solid #ddd;
 	padding: 10px;
 	overflow: hidden;
 }
