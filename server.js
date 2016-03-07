@@ -3,9 +3,9 @@ var app = express();
 var fs = require('fs');
 
 var public = '/public/';
-var herbs_path = parent + 'herbs/';
+var herbs_path = public + 'herbs/';
 
-app.use(express.static(__dirname + parent));
+app.use(express.static(__dirname + public));
 
 app.get('/oregano', function (req, res) {
   fs.readFile( __dirname + '/' + herbs_path + "oregano.html", 'utf8', function (err, data) {
@@ -29,7 +29,7 @@ app.get('/under-construction', function (req, res) {
 })
 
 app.get('/', function (req, res) {
-  fs.readFile( __dirname + parent + "index.html", 'utf8', function (err, data) {
+  fs.readFile( __dirname + public + "index.html", 'utf8', function (err, data) {
     console.log(data);
     res.end(data);
   });
