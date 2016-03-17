@@ -1,23 +1,31 @@
+@width0: 320px;
+@width1: 100%;
+@height2: 100%;
+
+@main-padding-bottom: 60px;
+@footer-margin-top: -@main-padding-bottom;
+@footer-height: @main-padding-bottom;
+
 * {
   margin: 0;
   padding: 0;
 }
 html {
-  height: 100%;
+  height: @height2;
 }
 body {
-  height: 100%;
+  height: @height2;
 }
 .wrapper {
-  min-height: 100%;
+  min-height: @height2;
 }
 .main {
-  padding-bottom: 60px;
+  padding-bottom: @main-padding-bottom;
 }
 .container {
   float: left;
   margin-right: -320px;
-  width: 100%;
+  width: @width1;
 }
 .content {
   background-image: url(/herbs/img/bg.png);
@@ -29,17 +37,17 @@ body {
 }
 .sidebar {
   float: right;
-  width: 320px;
+  width: @width0;
 }
 img {
   border: none;
   height: 320px;
-  width: 320px;
+  width: @width0;
 }
 .under-construction {
   height: auto;
   margin: 0 auto;
-  width: 100%;
+  width: @width1;
 }
 footer {
   background: -moz-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
@@ -50,8 +58,8 @@ footer {
   clear: both;
   color: white;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff00', endColorstr='#ffffff', GradientType=1);
-  height: 60px;
-  margin-top: -60px;
+  height: @footer-height;
+  margin-top: @footer-margin-top;
   position: relative;
   text-align: center;
 }

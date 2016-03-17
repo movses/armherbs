@@ -21,6 +21,20 @@ app.get('/basil', function (req, res) {
   });
 })
 
+app.get('/laurus', function (req, res) {
+    fs.readFile( __dirname + herbs_path + "դափնի.html", 'utf8', function (err, data) {
+        console.log(data);
+        res.end(data);
+    });
+})
+
+app.get('/hippophae', function (req, res) {
+    fs.readFile( __dirname + herbs_path + "չիչխան.html", 'utf8', function (err, data) {
+        console.log(data);
+        res.end(data);
+    });
+})
+
 app.get('/under-construction', function (req, res) {
     fs.readFile( __dirname + herbs_path + "under-construction.html", 'utf8', function (err, data) {
         console.log(data);
