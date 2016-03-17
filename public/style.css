@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  color: #5e5b64;
+  font: 15px/1.3 'Open Sans', sans-serif;
+  height: 100%;
+  margin-top: -85px;
+  text-align: center;
+}
+a {
+  color: #389dc1;
+  outline: none;
+}
+a:visited {
+  color: #389dc1;
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.search-bar {
+  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: linear-gradient(top, #ffffff, #f2f2f2);
+  border-radius: 15% 5%;
+  box-shadow: 0 1px 1px #cccccc;
+  margin: 80px auto 20px;
+  padding: 14px;
+  position: relative;
+  width: 400px;
+}
+.search-bar input {
+  background: #ffffff no-repeat 13px 13px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 2px 8px #c4c4c4 inset;
+  color: #738289;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  outline: none;
+  padding: 11px 0;
+  text-align: left;
+  text-indent: 40px;
+  width: 100%;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+  text-indent: -40px;
+}
+:-moz-placeholder {
+  text-align: center;
+  text-indent: -40px;
+}
+::-moz-placeholder {
+  text-align: center;
+  text-indent: -40px;
+}
+:-ms-input-placeholder {
+  text-align: center;
+  text-indent: -40px;
+}
+#content {
+  min-height: 100%;
+}
+#main {
+  overflow: auto;
+  padding-bottom: 60px;
+}
+ul li {
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  padding: 10px;
+}
+ul li img {
+  border: none;
+  height: 160px;
+  width: 160px;
+}
+ul li p {
+  color: #6e7a7f;
+  font-weight: bold;
+  padding-top: 12px;
+}
+footer {
+  background: -moz-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+  background: -ms-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+  background: -webkit-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+  background: green;
+  background: linear-gradient(to right, green 0%, green 80%, lightgreen 100%);
+  clear: both;
+  color: white;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff00', endColorstr='@color0', GradientType=1);
+  height: 60px;
+  margin-top: -60px;
+  position: relative;
+}

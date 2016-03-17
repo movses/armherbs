@@ -1,0 +1,65 @@
+@width0: 320px;
+@width1: 100%;
+@height2: 100%;
+
+@main-padding-bottom: 60px;
+@footer-margin-top: -@main-padding-bottom;
+@footer-height: @main-padding-bottom;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: @height2;
+}
+body {
+  height: @height2;
+}
+.wrapper {
+  min-height: @height2;
+}
+.main {
+  padding-bottom: @main-padding-bottom;
+}
+.container {
+  float: left;
+  margin-right: -320px;
+  width: @width1;
+}
+.content {
+  background-image: url(/herbs/img/bg.png);
+  border-bottom-right-radius: 40px;
+  margin-right: 320px;
+  overflow: auto;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.sidebar {
+  float: right;
+  width: @width0;
+}
+img {
+  border: none;
+  height: 320px;
+  width: @width0;
+}
+.under-construction {
+  height: auto;
+  margin: 0 auto;
+  width: @width1;
+}
+footer {
+  background: -moz-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+  background: -ms-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+  background: -webkit-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+  background: green;
+  background: linear-gradient(to right, green 0%, green 80%, lightgreen 100%);
+  clear: both;
+  color: white;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff00', endColorstr='#ffffff', GradientType=1);
+  height: @footer-height;
+  margin-top: @footer-margin-top;
+  position: relative;
+  text-align: center;
+}
