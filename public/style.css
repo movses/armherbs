@@ -88,6 +88,8 @@ ul li p {
   color: #6e7a7f;
   font-weight: bold;
   padding-top: 12px;
+  width: 160px;
+  height: 38px;
 }
 footer {
   background: -moz-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
@@ -97,7 +99,7 @@ footer {
   background: linear-gradient(to right, green 0%, green 80%, lightgreen 100%);
   clear: both;
   color: white;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff00', endColorstr='@color0', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff00', endColorstr='@white', GradientType=1);
   height: 60px;
   margin-top: -60px;
   position: relative;
