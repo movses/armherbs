@@ -7,20 +7,6 @@ var herbs_path = public + 'herbs/';
 
 app.use(express.static(__dirname + public));
 
-app.get('/oregano', function (req, res) {
-  fs.readFile( __dirname + '/' + herbs_path + "oregano.html", 'utf8', function (err, data) {
-    console.log(data);
-    res.end(data);
-  });
-})
-
-app.get('/basil', function (req, res) {
-  fs.readFile( __dirname + herbs_path + "basil.html", 'utf8', function (err, data) {
-    console.log(data);
-    res.end(data);
-  });
-})
-
 app.get('/laurus', function (req, res) {
     fs.readFile( __dirname + herbs_path + "դափնի.html", 'utf8', function (err, data) {
         console.log(data);
