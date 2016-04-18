@@ -39,42 +39,6 @@ function InstantSearchController($scope){
             image: 'img/չիչխան.jpeg'
         },
 		{
-			url: 'under-construction',
-			title: 'Խորդենի',
-			keywords: ['Խորդենի'],
-			image: 'img/խորդենի.png'
-		},
-		{
-			url: 'under-construction',
-			title: 'Եղեսպակ',
-			keywords: ['Եղեսպակ'],
-			image: 'img/եղեսպակ.jpg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Երիցուկ',
-			keywords: ['Երիցուկ'],
-			image: 'img/երիցուկ.jpg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Հազար',
-			keywords: ['Հազար'],
-			image: 'img/հազար.jpeg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Ուրց',
-			keywords: ['Ուրց'],
-			image: 'img/ուրց.jpg'
-		},
-		{
-			url: 'under-construction',
-			title: 'Հապալաղ',
-			keywords: ['Հապալաղ'],
-			image: 'img/հապալաղ.jpg'
-		},
-		{
 			url: 'laurus',
 			title: 'Դափնի',
             keywords: ['Դափնի', 'laurus'],
@@ -84,7 +48,7 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Ազնվամորի',
             keywords: ['Ազնվամորի', 'Rubus idaeus'],
-            image: 'img/no-image.jpeg'
+            image: 'img/ազնվամորի.gif'
         },
         {
             url: 'under-construction',
@@ -96,13 +60,13 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Անանուխ',
             keywords: ['Անանուխ', 'Mentha'],
-            image: 'img/no-image.jpeg'
+            image: 'img/անանուխ.jpeg'
         },
         {
             url: 'under-construction',
             title: 'Անթառամ Կղիմդրաբաժակ',
             keywords: ['Անթառամ Կղիմդրաբաժակ', 'Helichrysium plitocalix'],
-            image: 'img/no-image.jpeg'
+            image: 'img/անթառամ.jpeg'
         },        {
             url: 'under-construction',
             title: 'Առյուծագի',
@@ -137,13 +101,13 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Գայլուկ Սովորական',
             keywords: ['Գայլուկ Սովորական', 'Humulus lupulus'],
-            image: 'img/no-image.jpeg'
+            image: 'img/գայլուկ.jpg'
         },
         {
             url: 'under-construction',
             title: 'Գետնամորի Անտառային',
             keywords: ['Գետնամորի Անտառային', 'Fragaria vesca'],
-            image: 'img/no-image.jpeg'
+            image: 'img/գետնամորի.jpg'
         },
         {
             url: 'under-construction',
@@ -161,24 +125,24 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Եզան Լեզու Մեծ',
             keywords: ['Եզան Լեզու Մեծ', 'Plantago major'],
-            image: 'img/no-image.jpeg'
+            image: 'img/եզան-լեզու.jpg'
         },        {
             url: 'under-construction',
             title: 'Եզնարգել Դաշտային',
             keywords: ['Եզնարգել Դաշտային', 'Ononis arvensis'],
-            image: 'img/no-image.jpeg'
+            image: 'img/եզնարգել.png'
         },
         {
             url: 'under-construction',
             title: 'Եղերդակ Սովորական',
             keywords: ['Եղերդակ Սովորական', 'Cichorium intybus'],
-            image: 'img/no-image.jpeg'
+            image: 'img/եղերդակ.jpg'
         },
         {
             url: 'under-construction',
             title: 'Եղինջ Երկտուն',
             keywords: ['Եղինջ Երկտուն', 'Urtica dioca'],
-            image: 'img/no-image.jpeg'
+            image: 'img/եղինջ.png'
         },
         {
             url: 'under-construction',
@@ -202,13 +166,13 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Լորենի',
             keywords: ['Լորենի', 'Tilia'],
-            image: 'img/no-image.jpeg'
+            image: 'img/լորենի.jpeg'
         },
         {
             url: 'under-construction',
             title: 'Խատուտիկ Դեղատու',
             keywords: ['Խատուտիկ Դեղատու', 'Taraxacum officinalis'],
-            image: 'img/no-image.jpeg'
+            image: 'img/խատուտիկ.jpg'
         },
         {
             url: 'under-construction',
@@ -232,7 +196,7 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Ծիծեռնախոտ Մեծ',
             keywords: ['Ծիծեռնախոտ Մեծ', 'Chelidonium majus'],
-            image: 'img/no-image.jpeg'
+            image: 'img/ծիծեռնախոտ.jpg'
         },
         {
             url: 'under-construction',
@@ -256,7 +220,7 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Կաղնի',
             keywords: ['Կաղնի', 'Quercus'],
-            image: 'img/no-image.jpeg'
+            image: 'img/կաղնի.jpeg'
         },
         {
             url: 'under-construction',
@@ -268,55 +232,55 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Կատվալեզու Եռաբաժան',
             keywords: ['Կատվալեզու Եռաբաժան', 'Bidens tripartitus'],
-            image: 'img/no-image.jpeg'
+            image: 'img/կատվալեզու.jpeg'
         },
         {
             url: 'under-construction',
             title: 'Կատվախոտ Դեղատու',
             keywords: ['Կատվախոտ Դեղատու', 'Valeriana officinalis'],
-            image: 'img/no-image.jpeg'
+            image: 'img/կատվախոտ.png'
         },
         {
             url: 'under-construction',
             title: 'Կղմուխ Հեղինեի',
             keywords: ['Կղմուխ Հեղինեի', 'Inula helenium'],
-            image: 'img/no-image.jpeg'
+            image: 'img/կղմուխ.jpeg'
         },
         {
             url: 'under-construction',
             title: 'Կռատուկ',
             keywords: ['Կռատուկ', 'Arctium'],
-            image: 'img/no-image.jpeg'
+            image: 'img/կռատուկ.jpeg'
         },
         {
             url: 'under-construction',
             title: 'Հազարատերևուկ Հատվածատերև',
             keywords: ['Հազարատերևուկ Հատվածատերև', 'Achillea millefolium'],
-            image: 'img/no-image.jpeg'
+            image: 'img/հազարատերևուկ.jpg'
         },
         {
             url: 'under-construction',
             title: 'Հալևորիկ Ռոմբատերև',
             keywords: ['Հալևորիկ Ռոմբատերև', 'Senecio rhombifolius'],
-            image: 'img/no-image.jpeg'
+            image: 'img/հալևորիկ.jpg'
         },
         {
             url: 'under-construction',
             title: 'Ձիաձետ Դաշտային',
             keywords: ['Ձիաձետ Դաշտային', 'Equisetum arvense'],
-            image: 'img/no-image.jpeg'
+            image: 'img/ձիաձետ.jpg'
         },
         {
             url: 'under-construction',
             title: 'Ղանձիլ',
             keywords: ['Ղանձիլ', 'Allium ursinum'],
-            image: 'img/no-image.jpeg'
+            image: 'img/ղանձիլ.jpeg'
         },
         {
             url: 'under-construction',
             title: 'Մակարդախոտ Իսկական',
             keywords: ['Մակարդախոտ Իսկական', 'Galium verum'],
-            image: 'img/no-image.jpeg'
+            image: 'img/մակարդախոտ.jpg'
         },
         {
             url: 'under-construction',
@@ -334,7 +298,7 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Մասրենի',
             keywords: ['Մասրենի', 'Rosa'],
-            image: 'img/no-image.jpeg'
+            image: 'img/մասրենի.jpeg'
         },
         {
             url: 'under-construction',
@@ -346,13 +310,13 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Մեղրածուծ Սովորական',
             keywords: ['Մեղրածուծ Սովորական', 'Marrubium vulgare'],
-            image: 'img/no-image.jpeg'
+            image: 'img/մեղրածուծ.jpeg'
         },
         {
             url: 'under-construction',
             title: 'Մղամուճ Սպիտակ',
             keywords: ['Մղամուճ Սպիտակ', 'Viscum allum'],
-            image: 'img/no-image.jpeg'
+            image: 'img/մղամուճ.jpeg'
         },
         {
             url: 'under-construction',
@@ -376,7 +340,7 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Սեզ Սողացող',
             keywords: ['Սեզ Սողացող', 'Agropyron repens'],
-            image: 'img/no-image.jpeg'
+            image: 'img/սեզ.jpeg'
         },
         {
             url: 'under-construction',
@@ -394,19 +358,19 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Սրոհունդ Սովորական',
             keywords: ['Սրոհունդ Սովորական', 'Hypericum perforatum'],
-            image: 'img/no-image.jpeg'
+            image: 'img/սրոհունդ.jpg'
         },
         {
             url: 'under-construction',
             title: 'Տատրակ Սովորական',
             keywords: ['Տատրակ Սովորական', 'Tussillago farfara'],
-            image: 'img/no-image.jpeg'
+            image: 'img/տատրակ.jpeg'
         },
         {
             url: 'under-construction',
             title: 'Տերեփուկ Կապույտ',
             keywords: ['Տերեփուկ Կապույտ', 'Centaurea cyanus'],
-            image: 'img/no-image.jpeg'
+            image: 'img/տերեփուկ.jpg'
         },        {
             url: 'under-construction',
             title: 'Տորոն Ներկատու',
@@ -417,13 +381,13 @@ function InstantSearchController($scope){
             url: 'under-construction',
             title: 'Տուղտ Դեղատու',
             keywords: ['Տուղտ Դեղատու', 'Althaea officinalis'],
-            image: 'img/no-image.jpeg'
+            image: 'img/տուղտ.jpeg'
         },
         {
             url: 'under-construction',
             title: 'ՈՒրց Սողացող',
             keywords: ['ՈՒրց Սողացող', 'Thymus serpyllum'],
-            image: 'img/no-image.jpeg'
+            image: 'img/ուրց.jpg'
         },
         {
             url: 'under-construction',
@@ -434,13 +398,13 @@ function InstantSearchController($scope){
         {
             url: 'under-construction',
             title: 'Օճառախոտ Դեղատու',
-            keywords: ['Օճառախոտ Դեղատու', 'Saponaria offcinalis'],
-            image: 'img/no-image.jpeg'
+            keywords: ['Օճառախոտ Դեղատու', 'Saponaria officinalis'],
+            image: 'img/օճառախոտ.jpg'
         },
         {
             url: 'under-construction',
             title: 'Օշինդր Դառը',
-            keywords: ['Օշինդր Դառը', 'Artemsia absinthium'],
+            keywords: ['Օշինդր Դառը', 'Artemisia absinthium'],
             image: 'img/no-image.jpeg'
         }
 

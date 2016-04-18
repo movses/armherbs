@@ -1,0 +1,39 @@
+@main-padding-bottom: 60px;
+@footer-margin-top: -@main-padding-bottom;
+@footer-height: @main-padding-bottom;
+
+footer {
+  background: green;
+  background: -moz-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+  background: -ms-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+  background: -webkit-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+  background: linear-gradient(to right, green 0%, green 80%, lightgreen 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff00', endColorstr='@white', GradientType=1);
+  width: 100%;
+  display: inline-block;
+  color: white;
+  height: @footer-height;
+  margin-top: @footer-margin-top;
+  position: relative;
+  text-align: center;
+  ul {
+    li {
+      display: inline-block;
+      padding: 0em 1em;
+      color: white;
+      border-left: 1px solid white;
+      a, a:visited{
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+        text-decoration: underline;
+      }
+    }
+    li.border_none {
+      border: none;
+    }
+  }
+}
+

@@ -1,0 +1,33 @@
+footer {
+  background: green;
+  background: -moz-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+  background: -ms-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+  background: -webkit-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
+  background: linear-gradient(to right, green 0%, green 80%, lightgreen 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff00', endColorstr='@white', GradientType=1);
+  width: 100%;
+  display: inline-block;
+  color: white;
+  height: 60px;
+  margin-top: -60px;
+  position: relative;
+  text-align: center;
+}
+footer ul li {
+  display: inline-block;
+  padding: 0em 1em;
+  color: white;
+  border-left: 1px solid white;
+}
+footer ul li a,
+footer ul li a:visited {
+  color: white;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+footer ul li.border_none {
+  border: none;
+}
