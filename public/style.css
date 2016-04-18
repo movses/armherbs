@@ -11,13 +11,12 @@ body {
   height: 100%;
   margin-top: -85px;
   text-align: center;
+  font-family: "Myriad Pro", "Times New Roman", "sans serif";
 }
 a {
-  color: #389dc1;
   outline: none;
 }
 a:visited {
-  color: #389dc1;
   outline: none;
 }
 a:hover {
@@ -50,6 +49,12 @@ a:hover {
   text-indent: 40px;
   width: 100%;
 }
+.terminalogy-header {
+  margin: 80px auto 20px;
+  padding: 14px;
+  position: relative;
+  width: 400px;
+}
 ::-webkit-input-placeholder {
   text-align: center;
   text-indent: -40px;
@@ -73,32 +78,53 @@ a:hover {
   overflow: auto;
   padding-bottom: 60px;
 }
-ul li {
-  display: inline-block;
+#main ul li {
   float: left;
   overflow: hidden;
   padding: 10px;
 }
-ul li img {
+#main ul li img {
   border: none;
   height: 160px;
   width: 160px;
 }
-ul li p {
+#main ul li p {
   color: #6e7a7f;
   font-weight: bold;
   padding-top: 12px;
+  width: 160px;
+  height: 38px;
 }
 footer {
+  background: green;
   background: -moz-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
   background: -ms-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
   background: -webkit-linear-gradient(left, green 0%, green 80%, lightgreen 100%);
-  background: green;
   background: linear-gradient(to right, green 0%, green 80%, lightgreen 100%);
-  clear: both;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff00', endColorstr='@white', GradientType=1);
+  width: 100%;
+  display: inline-block;
   color: white;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff00', endColorstr='@color0', GradientType=1);
   height: 60px;
   margin-top: -60px;
   position: relative;
+  text-align: center;
+}
+footer ul li {
+  display: inline-block;
+  padding: 0em 1em;
+  color: white;
+  border-left: 1px solid white;
+}
+footer ul li a,
+footer ul li a:visited {
+  color: white;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+footer ul li.border_none {
+  border: none;
 }
