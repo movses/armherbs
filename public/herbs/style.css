@@ -97,3 +97,13 @@ footer ul li a:hover {
 footer ul li.border_none {
   border: none;
 }
+#contact,
+#about,
+#volunteering {
+  float: left;
+}
+#contact ul li,
+#about ul li,
+#volunteering ul li {
+  color: #305CB5;
+}
