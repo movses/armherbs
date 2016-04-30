@@ -7,6 +7,41 @@ var herbs_path = public + 'herbs/';
 
 app.use(express.static(__dirname + public));
 
+app.get('/literature', function (req, res) {
+    fs.readFile( __dirname + public + "literature.html", 'utf8', function (err, data) {
+        console.log(data);
+        res.end(data);
+    });
+});
+
+app.get('/terminology', function (req, res) {
+    fs.readFile( __dirname + public + "terminology.html", 'utf8', function (err, data) {
+        console.log(data);
+        res.end(data);
+    });
+});
+
+app.get('/about', function (req, res) {
+    fs.readFile( __dirname + public + "about.html", 'utf8', function (err, data) {
+        console.log(data);
+        res.end(data);
+    });
+});
+
+app.get('/contact', function (req, res) {
+    fs.readFile( __dirname + public + "contact.html", 'utf8', function (err, data) {
+        console.log(data);
+        res.end(data);
+    });
+});
+
+app.get('/volunteering', function (req, res) {
+    fs.readFile( __dirname + public  + "volunteering.html", 'utf8', function (err, data) {
+        console.log(data);
+        res.end(data);
+    });
+});
+
 app.get('/hippophae', function (req, res) {
     fs.readFile( __dirname + herbs_path + "չիչխան.html", 'utf8', function (err, data) {
         console.log(data);
