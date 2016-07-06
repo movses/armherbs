@@ -495,6 +495,9 @@ app.get('/', function (req, res) {
   });
 });
 
+app.get('/admin', function(req, res) {
+   res.end("under construction");
+});
 
 var server = app.listen(process.env.PORT || 8081, function () {
     var host = server.address().address;
