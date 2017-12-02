@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Հայաստանի Դեղաբույսերը</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+
+	<body ng-app="instantSearch" ng-controller="InstantSearchController">
+        <div id="content">
+            <div class="search-bar">
+                <input type="text" ng-model="searchString" placeholder="փնտրել դեղաբույսը ..." />
+            </div>
+            <div id="main">
+                <ul>
+                    <li ng-repeat="i in items | searchFor:searchString">
+                        <p>{{i.title}}</p>
+                        <a href="{{i.url}}"><img ng-src="{{i.image}}" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <span>հետադարձ կապ</span>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+        <script src="herbs.js"></script>
+    </body>
+
+</html>
