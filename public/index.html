@@ -15,8 +15,8 @@
             <div id="main">
                 <ul>
                     <li ng-repeat="i in items | searchFor:searchString">
-                        <p>{{i.title}}</p>
                         <a href="{{i.url}}"><img ng-src="{{i.image}}" /></a>
+												<p>{{i.title}}</p>
                     </li>
                 </ul>
             </div>
@@ -26,8 +26,6 @@
             <ul>
                 <li class="border_none"><a href="terminology">ՏԵՐՄԻՆՆԵՐ</a></li>
                 <li><a href="literature">Գրականություն</a></li>
-                <li><a href="about">Մեր Մասին</a></li>
-                <li><a href="volunteering">Կամավորական Աշխատանքներ</a></li>
                 <li><a href="contact">Հետադարձ Կապ</a></li>
             </ul>
         </footer>
