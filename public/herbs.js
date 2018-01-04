@@ -33,12 +33,6 @@ function InstantSearchController($scope){
 
 	$scope.items = [
         {
-            url: 'hippophae',
-            title: 'Չիչխան',
-            keywords: ['Չիչխան', 'hippophae'],
-            image: 'img/չիչխան.jpeg'
-        },
-        {
             url: 'rubus-idaeus',
             title: 'Ազնվամորի',
             keywords: ['Ազնվամորի', 'Rubus idaeus'],
@@ -331,6 +325,12 @@ function InstantSearchController($scope){
             keywords: ['Ոզնենի Կարմրագլուխ', 'Echinops spherocephalus'],
             image: 'img/no-image.jpeg'
         },
+				{
+						url: 'hippophae',
+						title: 'Չիչխան',
+						keywords: ['Չիչխան', 'hippophae'],
+						image: 'img/չիչխան.jpeg'
+				},
         {
             url: 'agropyron',
             title: 'Սեզ Սողացող',
