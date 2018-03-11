@@ -132,7 +132,7 @@ app.get('/juniperus', function (req, res) {
 });
 
 app.get('/prumula', function (req, res) {
-    fs.readFile( __dirname + herbs_path + "Գնարբուկ.html", 'utf8', function (err, data) {
+    fs.readFile( __dirname + herbs_path + "գնարբուկ.html", 'utf8', function (err, data) {
         console.log(data);
         res.end(data);
     });
