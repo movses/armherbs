@@ -114,3 +114,20 @@ footer ul li.border_none {
 #volunteering ul li {
   color: #305CB5;
 }
+
+@media screen and (min-width: 320px) and (max-width: 824px) {
+  .sidebar {
+    clear: both;
+  }
+  .container .content {
+    font-size: 18px;
+    margin-right: 0;
+  }
+  footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	right: 0;
+  }
+}
+

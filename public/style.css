@@ -60,22 +60,7 @@ a:hover {
   position: relative;
   width: 400px;
 }
-::-webkit-input-placeholder {
-  text-align: center;
-  text-indent: -40px;
-}
-:-moz-placeholder {
-  text-align: center;
-  text-indent: -40px;
-}
-::-moz-placeholder {
-  text-align: center;
-  text-indent: -40px;
-}
-:-ms-input-placeholder {
-  text-align: center;
-  text-indent: -40px;
-}
+
 #content {
   min-height: 100%;
 }
@@ -133,4 +118,29 @@ footer ul li a:hover {
 }
 footer ul li.border_none {
   border: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 824px) {
+  #content {
+    font-size: 18px;
+    margin-right: 0;
+    overflow: hidden;
+  }
+  footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        right: 0;
+  }
+  .search-bar {
+    max-width: 300px;
+  }
+  #main ul li {
+    clear: both;
+    float: none;
+  }
+
+  #main ul li p {
+     width: 100%
+  }
 }
