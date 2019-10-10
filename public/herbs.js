@@ -42,7 +42,7 @@ function InstantSearchController($scope){
             url: 'crataegus',
             title: 'Ալոճենի',
             keywords: ['Ալոճենի', 'Crataegus'],
-            image: 'img/no-image.jpeg'
+            image: 'img/ալոճենի.png'
         },
         {
             url: 'mentha',
@@ -59,31 +59,31 @@ function InstantSearchController($scope){
             url: 'leonurus',
             title: 'Առյուծագի',
             keywords: ['Առյուծագի', 'Leonurus'],
-            image: 'img/no-image.jpeg'
+            image: 'img/առյուծագի.png'
         },
         {
             url: 'sanguisorba',
             title: 'Արյունխմիկ Դեղատու',
             keywords: ['Արյունխմիկ Դեղատու', 'Sanguisorba officinalis'],
-            image: 'img/no-image.jpeg'
+            image: 'img/արյունխմիկ.png'
         },
         {
             url: 'astragalus',
             title: 'Գազ Մանրագլխիկ',
             keywords: ['Գազ Մանրագլխիկ', 'Astragalus microcephalus Wild'],
-            image: 'img/no-image.jpeg'
+            image: 'img/գազ.png'
         },
         {
             url: 'cuscuta',
             title: 'Գաղձ',
             keywords: ['Գաղձ', 'Cuscuta'],
-            image: 'img/no-image.jpeg'
+            image: 'img/գաղձ.png'
         },
         {
             url: 'daphne',
             title: 'Գայլահատ Մահացու',
             keywords: ['Գայլահատ Մահացու', 'Daphne mezereum'],
-            image: 'img/no-image.jpeg'
+            image: 'img/գայլահատ.png'
         },
         {
             url: 'humulus',
@@ -101,13 +101,13 @@ function InstantSearchController($scope){
             url: 'juniperus',
             title: 'Գիհի',
             keywords: ['Գիհի', 'Juniperus'],
-            image: 'img/no-image.jpeg'
+            image: 'img/գիհի.png'
         },
         {
             url: 'prumula',
             title: 'Գնարբուկ',
             keywords: ['Գնարբուկ', 'Prumula'],
-            image: 'img/no-image.jpeg'
+            image: 'img/գնարբուկ.png'
         },
         {
             url: 'plantago',
@@ -137,19 +137,19 @@ function InstantSearchController($scope){
             url: 'sambucus',
             title: 'Թանթրվենի Սև',
             keywords: ['Թանթրվենի Սև', 'Sambucus nigra'],
-            image: 'img/no-image.jpeg'
+            image: 'img/թանթրվենի.png'
         },
         {
             url: 'melilotus',
             title: 'Իշառվույտ Դեղատու',
             keywords: ['Իշառվույտ Դեղատու', 'Melilotus officinalis'],
-            image: 'img/իշառվույտ.jpg'
+            image: 'img/իշառվույտ.png'
         },
         {
             url: 'bryonia',
             title: 'Լոշտակ Սպիտակ',
             keywords: ['Լոշտակ Սպիտակ', 'Bryonia alba'],
-            image: 'img/no-image.jpeg'
+            image: 'img/լոշտակ.png'
         },
         {
             url: 'tilia',
@@ -167,19 +167,19 @@ function InstantSearchController($scope){
             url: 'origanum',
             title: 'Խնկածաղիկ Սովորոկան',
             keywords: ['Խնկածաղիկ Սովորոկան', 'Origanum vulgare'],
-            image: 'img/no-image.jpeg'
+            image: 'img/խնկածաղիկ.png'
         },
         {
             url: 'acorus',
             title: 'Խնկեղեգ Եղեգնային',
             keywords: ['Խնկեղեգ Եղեգնային', 'Acorus calamus'],
-            image: 'img/no-image.jpeg'
+            image: 'img/խնկեղեգ.png'
         },
         {
             url: 'verbascum',
             title: 'Խռնդատ',
             keywords: ['Խռնդատ', 'Verbascum'],
-            image: 'img/no-image.jpeg'
+            image: 'img/խռնդատ.png'
         },
         {
             url: 'chelidonium',
@@ -191,31 +191,31 @@ function InstantSearchController($scope){
             url: 'asparagus',
             title: 'Ծնեբեկ Դեղատու',
             keywords: ['Ծնեբեկ Դեղատու', 'Asparagus officinalis'],
-            image: 'img/no-image.jpeg'
+            image: 'img/ծնեբեկ.png'
         },
         {
             url: 'armoracia',
             title: 'Ծովաբողկ Գյուղական',
             keywords: ['Ծովաբողկ Գյուղական', 'Armoracia rusticana'],
-            image: 'img/no-image.jpeg'
+            image: 'img/ծովաբողկ.png'
         },
         {
             url: 'berberis',
             title: 'Ծորենի Սովորական',
             keywords: ['Ծորենի Սովորական', 'Berberis vulgaris'],
-            image: 'img/no-image.jpeg'
+            image: 'img/ծորենի.png'
         },
         {
             url: 'quercus',
             title: 'Կաղնի',
             keywords: ['Կաղնի', 'Quercus'],
-            image: 'img/կաղնի.jpeg'
+            image: 'img/կաղնի.png'
         },
         {
             url: 'onopordon',
             title: 'Կաղշնակ Սովորական',
             keywords: ['Կաղշնակ Սովորական', 'Onopordon acanthium'],
-            image: 'img/no-image.jpeg'
+            image: 'img/կաղշնակ.png'
         },
         {
             url: 'bidens',
@@ -263,7 +263,7 @@ function InstantSearchController($scope){
             url: 'allium',
             title: 'Ղանձիլ',
             keywords: ['Ղանձիլ', 'Allium ursinum'],
-            image: 'img/ղանձիլ.jpeg'
+            image: 'img/ղանձիլ.png'
         },
         {
             url: 'galium',
@@ -275,13 +275,13 @@ function InstantSearchController($scope){
             url: 'prunus',
             title: 'Մամխի Փշոտ',
             keywords: ['Մամխի Փշոտ', 'Prunus spinosa'],
-            image: 'img/no-image.jpeg'
+            image: 'img/մամխի.png'
         },
         {
             url: 'polygonum',
             title: 'Մանդիկ Մսագույն',
             keywords: ['Մանդիկ Մսագույն', 'Polygonum carneum'],
-            image: 'img/no-image.jpeg'
+            image: 'img/մանդիկ.png'
         },
         {
             url: 'rosa',
@@ -293,7 +293,7 @@ function InstantSearchController($scope){
             url: 'digitalis',
             title: 'Մատնոցուկ Ժանգային',
             keywords: ['Մատնոցուկ Ժանգային', 'Digitalis ferruginea'],
-            image: 'img/no-image.jpeg'
+            image: 'img/մատնոցուկ.png'
         },
         {
             url: 'marrubium',
@@ -311,26 +311,26 @@ function InstantSearchController($scope){
             url: 'rubus-caesius',
             title: 'Մոշենի',
             keywords: ['Մոշենի', 'Rubus caesius'],
-            image: 'img/no-image.jpeg'
+            image: 'img/մոշենի.png'
         },
         {
             url: 'arum',
             title: 'Նվիկ Արևելյան',
             keywords: ['Նվիկ Արևելյան', 'Arum orientale'],
-            image: 'img/no-image.jpeg'
+            image: 'img/նվիկ.png'
         },
         {
             url: 'echinops',
             title: 'Ոզնենի Կարմրագլուխ',
             keywords: ['Ոզնենի Կարմրագլուխ', 'Echinops spherocephalus'],
-            image: 'img/no-image.jpeg'
+            image: 'img/ոզնենի.png'
         },
-				{
-						url: 'hippophae',
-						title: 'Չիչխան',
-						keywords: ['Չիչխան', 'hippophae'],
-						image: 'img/չիչխան.jpeg'
-				},
+	{
+			url: 'hippophae',
+			title: 'Չիչխան',
+			keywords: ['Չիչխան', 'hippophae'],
+			image: 'img/չիչխան.jpeg'
+	},
         {
             url: 'agropyron',
             title: 'Սեզ Սողացող',
@@ -341,19 +341,19 @@ function InstantSearchController($scope){
             url: 'polygonatum',
             title: 'Սինդրիկ',
             keywords: ['Սինդրիկ', 'Polygonatum Adans'],
-            image: 'img/no-image.jpeg'
+            image: 'img/սինդրիկ.png'
         },
         {
             url: 'peganum',
             title: 'Սպանդ Սովորական',
             keywords: ['Սպանդ Սովորական', 'Peganum harmala'],
-            image: 'img/no-image.jpeg'
+            image: 'img/սպանդ.png'
         },
         {
             url: 'hypericum',
             title: 'Սրոհունդ Սովորական',
             keywords: ['Սրոհունդ Սովորական', 'Hypericum perforatum'],
-            image: 'img/սրոհունդ.jpg'
+            image: 'img/սրոհունդ.png'
         },
         {
             url: 'tussillago',
@@ -371,13 +371,13 @@ function InstantSearchController($scope){
             url: 'rubia',
             title: 'Տորոն Ներկատու',
             keywords: ['Տորոն Ներկատու', 'Rubia tinctorum'],
-            image: 'img/no-image.jpeg'
+            image: 'img/տորոն.png'
         },
         {
             url: 'althaea',
             title: 'Տուղտ Դեղատու',
             keywords: ['Տուղտ Դեղատու', 'Althaea officinalis'],
-            image: 'img/տուղտ.jpeg'
+            image: 'img/տուղտ.png'
         },
         {
             url: 'thymus',
@@ -389,7 +389,7 @@ function InstantSearchController($scope){
             url: 'pulsatilla',
             title: 'Քնախոտ',
             keywords: ['Քնախոտ', 'Pulsatilla Adans'],
-            image: 'img/no-image.jpeg'
+            image: 'img/քնախոտ.png'
         },
         {
             url: 'saponaria',
