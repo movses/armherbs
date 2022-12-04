@@ -19,5 +19,8 @@
             "dest": "/artemisia"            
         }
         
-      ]
+      ],
+      
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+        
   }
