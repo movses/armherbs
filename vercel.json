@@ -12,7 +12,12 @@
         {
           // Specify which paths will route to a destination using a regex
           "src": "/(.*)",
-          "dest": "index.js"
+          "dest": "/"
+        },
+        {
+            "src": "/public/herbs/artemisia",
+            "dest": "/artemisia"            
         }
+        
       ]
   }

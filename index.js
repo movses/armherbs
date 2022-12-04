@@ -166,17 +166,6 @@ app.get("/daphne", function (req, res) {
   );
 });
 
-app.get("/humulus", function (req, res) {
-  fs.readFile(
-    __dirname + herbs_path + "գայլուկ.html",
-    "utf8",
-    function (err, data) {
-      console.log(data);
-      res.end(data);
-    }
-  );
-});
-
 app.get("/fragaria", function (req, res) {
   fs.readFile(
     __dirname + herbs_path + "գետնամորի.html",
