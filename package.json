@@ -1,11 +1,18 @@
 {
-    "name" : "armherbs",
-    "version" : "2.0.0",
+    "name": "armherbs",
+    "version": "2.0.0",
+    "homepage": "https://armherbs.com",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "build": "",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d ."
     },
-    "dependencies" : {
-        "express" : "4.x.x",
+    "dependencies": {
+        "express": "4.x.x",
         "less": "*"
+    },
+    "devDependencies": {
+        "gh-pages": "^4.0.0"
     }
 }
