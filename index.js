@@ -59,14 +59,10 @@ app.get("/volunteering", function (req, res) {
 });
 
 app.get("/hippophae", function (req, res) {
-  fs.readFile(
-    __dirname + herbs_path + "չիչխան.html",
-    "utf8",
-    function (err, data) {
-      console.log(data);
-      res.end(data);
-    }
-  );
+  fs.readFile(__dirname + herbs_path + "c", "utf8", function (err, data) {
+    console.log(data);
+    res.end(data);
+  });
 });
 
 app.get("/rubus-idaeus", function (req, res) {
