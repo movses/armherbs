@@ -54,7 +54,7 @@ app.get("/volunteering", function (req, res) {
 });
 
 app.get("/hippophae", function (req, res) {
-  fs.readFile(__dirname + herbs_path + "c", "utf8", function (err, data) {
+  fs.readFile(__dirname + herbs_path + "չիչխան.html", "utf8", function (err, data) {
     res.end(data);
   });
 });
