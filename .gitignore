@@ -3,3 +3,4 @@ public/herbs/.DS_Store
 .DS_Store
 *.log
 node_modules/
+.vercel
