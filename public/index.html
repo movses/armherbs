@@ -5,6 +5,7 @@
     	<meta charset="utf-8" />
     	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
     	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
     	<meta name="viewport" content="width=device-width, initial-scale=1" />
     	<meta property="og:title" content="դեղաբույսեր" />
     	<meta
@@ -13,7 +14,7 @@
     	/>
     	<meta
     	  name="keywords"
-    	  content="herb, դեղաբույս, հայաստան, դեղաբույսեր, dexabuys, armenia, hayastan, բույս, buys, բաղադրատոմս"
+    	  content="herb, դեղաբույս, Հայաստան, դեղաբույսեր, dexabuys, armenia, hayastan, բույս, buys, բաղադրատոմս"
     	/>
 		<title>Հայաստանի Դեղաբույսերը</title>
 		<link href="style.css" rel="stylesheet" />
@@ -27,7 +28,7 @@
             <div id="main">
                 <ul>
                     <li ng-repeat="i in items | searchFor:searchString">
-                        <a href="{{i.url}}"><img ng-src="{{i.image}}" /></a>
+                        <a href="{{i.url}}"><img ng-src="{{i.image}}" alt="{{i.alt}}"/></a>
 												<p>{{i.title}}</p>
                     </li>
                 </ul>
