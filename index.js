@@ -33,6 +33,12 @@ app.get("/about", function (req, res) {
   });
 });
 
+app.get("/sitemap.xml", function (req, res) {
+  fs.readFile(__dirname + public + "sitemap.xml", "utf8", function (err, data) {
+    res.end(data);
+  });
+});
+
 app.get("/contact", function (req, res) {
   fs.readFile(
     __dirname + public + "contact.html",
@@ -54,9 +60,13 @@ app.get("/volunteering", function (req, res) {
 });
 
 app.get("/hippophae", function (req, res) {
-  fs.readFile(__dirname + herbs_path + "չիչխան.html", "utf8", function (err, data) {
-    res.end(data);
-  });
+  fs.readFile(
+    __dirname + herbs_path + "չիչխան.html",
+    "utf8",
+    function (err, data) {
+      res.end(data);
+    }
+  );
 });
 
 app.get("/rubus-idaeus", function (req, res) {
