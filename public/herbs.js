@@ -365,8 +365,8 @@ function InstantSearchController($scope) {
     },
     {
       url: "echinops",
-      title: "Ոզնենի Կարմրագլուխ",
-      keywords: ["Ոզնենի Կարմրագլուխ", "Echinops spherocephalus"],
+      title: "Ոզնենի կլորագլուխ",
+      keywords: ["Ոզնենի կլորագլուխ", "Echinops spherocephalus"],
       image: "img/ոզնենի.png",
       alt: "echinops",
     },
