@@ -104,6 +104,11 @@ footer ul li a:hover {
 footer ul li.border_none {
   border: none;
 }
+
+#copyright {
+  font-size: 12px;
+}
+
 #contact,
 #about,
 #volunteering {
