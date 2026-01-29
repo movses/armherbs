@@ -50,8 +50,8 @@ function InstantSearchController($scope) {
     },
     {
       url: "helichrysium",
-      title: "Անթառամ Կղիմդրաբաժակ",
-      keywords: ["Անթառամ Կղիմդրաբաժակ", "Helichrysium plitocalix"],
+      title: "Անթառամ Կղմինդրաբաժակ",
+      keywords: ["Անթառամ Կղմինդրաբաժակ", "Helichrysium plitocalix"],
       image: "img/անթառամ.jpeg",
       alt: "helichrysium",
     },
